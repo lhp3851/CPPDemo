@@ -7,9 +7,49 @@
 //
 
 #include <iostream>
+#include "Vector/VectorDemo.hpp"
+#include "Networking/sync_client.hpp"
+#include "Networking/asio/asio_demo.cpp"
 
-int main(int argc, const char * argv[]) {
-    // insert code here...
-    std::cout << "Hello, World!\n";
+using namespace std;
+
+class StringAppend{
+public:
+    explicit StringAppend(const string& str) : ss(str){}
+    
+    void operator() (const string& str) const{
+        cout<<str<<' '<<ss<<endl;
+    }
+    
+private:
+    const string ss;
+};
+
+struct test {
+    char a;
+    char b;
+    short c; 
+    int d;
+};
+
+
+int main(int argc, const char * argv[]){
+    
+//    boost::asio::io_service service;
+//
+//    Server *server = new Server(service, 9000);
+    
+//    server->run();
+    
+    std::bitset<4> b("0000");
+    
+    std::bitset<4> c("0010");
+    
+    printf("%d, %d:", b.any(), c.any());
+    
+    
     return 0;
 }
+
+
+

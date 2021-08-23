@@ -8,6 +8,12 @@
 
 /* Begin PBXBuildFile section */
 		7A0A2B1021D8A2CC001F05C0 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 7A0A2B0F21D8A2CC001F05C0 /* main.cpp */; };
+		7A0A2B1921D8A58B001F05C0 /* VectorDemo.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 7A0A2B1721D8A58B001F05C0 /* VectorDemo.cpp */; };
+		7A3C290F21E0D5280036841C /* asio_demo.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 7A3C290D21E0D5280036841C /* asio_demo.cpp */; };
+		7A84D4EF253AA6B000A41722 /* MisCellaneous.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 7A84D4ED253AA6B000A41722 /* MisCellaneous.cpp */; };
+		7A84D4FA253AD8D800A41722 /* TraitsCopy.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 7A84D4F9253AD8D800A41722 /* TraitsCopy.cpp */; };
+		7A9C860122ACA5BD0062EE8D /* libboost_system.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 7A9C860022ACA5BD0062EE8D /* libboost_system.a */; };
+		7AF2B99F21DD15FE0042AE8C /* sync_client.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 7AF2B99D21DD15FE0042AE8C /* sync_client.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,6 +31,22 @@
 /* Begin PBXFileReference section */
 		7A0A2B0C21D8A2CC001F05C0 /* C++Demo */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "C++Demo"; sourceTree = BUILT_PRODUCTS_DIR; };
 		7A0A2B0F21D8A2CC001F05C0 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		7A0A2B1721D8A58B001F05C0 /* VectorDemo.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = VectorDemo.cpp; sourceTree = "<group>"; };
+		7A0A2B1821D8A58B001F05C0 /* VectorDemo.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = VectorDemo.hpp; sourceTree = "<group>"; };
+		7A3C290D21E0D5280036841C /* asio_demo.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = asio_demo.cpp; sourceTree = "<group>"; };
+		7A3C290E21E0D5280036841C /* asio_demo.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = asio_demo.hpp; sourceTree = "<group>"; };
+		7A6CE30821E0C3BD0079D5BE /* libboost_system.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libboost_system.a; path = ../../../../../../../usr/local/Cellar/boost/1.68.0/lib/libboost_system.a; sourceTree = "<group>"; };
+		7A84D4ED253AA6B000A41722 /* MisCellaneous.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = MisCellaneous.cpp; sourceTree = "<group>"; };
+		7A84D4EE253AA6B000A41722 /* MisCellaneous.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = MisCellaneous.hpp; sourceTree = "<group>"; };
+		7A84D4F3253AD8C100A41722 /* Version.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Version.cpp; sourceTree = "<group>"; };
+		7A84D4F4253AD8C100A41722 /* Version.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Version.hpp; sourceTree = "<group>"; };
+		7A84D4F6253AD8CA00A41722 /* TimeTool.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = TimeTool.hpp; sourceTree = "<group>"; };
+		7A84D4F7253AD8CA00A41722 /* TimeTool.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = TimeTool.cpp; sourceTree = "<group>"; };
+		7A84D4F8253AD8D800A41722 /* TraitsCopy.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = TraitsCopy.hpp; sourceTree = "<group>"; };
+		7A84D4F9253AD8D800A41722 /* TraitsCopy.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = TraitsCopy.cpp; sourceTree = "<group>"; };
+		7A9C860022ACA5BD0062EE8D /* libboost_system.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libboost_system.a; path = ../../../../Tool_Resource_Code/boost_1_69_0/stage/lib/libboost_system.a; sourceTree = "<group>"; };
+		7AF2B99D21DD15FE0042AE8C /* sync_client.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = sync_client.cpp; sourceTree = "<group>"; };
+		7AF2B99E21DD15FE0042AE8C /* sync_client.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = sync_client.hpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -32,6 +54,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7A9C860122ACA5BD0062EE8D /* libboost_system.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -43,6 +66,7 @@
 			children = (
 				7A0A2B0E21D8A2CC001F05C0 /* C++Demo */,
 				7A0A2B0D21D8A2CC001F05C0 /* Products */,
+				7A14C2DC21DFC4FF00314B90 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -57,9 +81,96 @@
 		7A0A2B0E21D8A2CC001F05C0 /* C++Demo */ = {
 			isa = PBXGroup;
 			children = (
+				7A84D4FC253AD8E800A41722 /* Traits */,
+				7A84D4F5253AD8CA00A41722 /* Time */,
+				7A84D4F2253AD8C100A41722 /* Version */,
+				7A84D4EC253AA65C00A41722 /* Miscellaneous */,
+				7A9C85FD22ABD2430062EE8D /* Lib */,
+				7AF2B99A21DD0FCB0042AE8C /* Networking */,
+				7A0A2B1621D8A56F001F05C0 /* Vector */,
 				7A0A2B0F21D8A2CC001F05C0 /* main.cpp */,
 			);
 			path = "C++Demo";
+			sourceTree = "<group>";
+		};
+		7A0A2B1621D8A56F001F05C0 /* Vector */ = {
+			isa = PBXGroup;
+			children = (
+				7A0A2B1821D8A58B001F05C0 /* VectorDemo.hpp */,
+				7A0A2B1721D8A58B001F05C0 /* VectorDemo.cpp */,
+			);
+			path = Vector;
+			sourceTree = "<group>";
+		};
+		7A14C2DC21DFC4FF00314B90 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				7A9C860022ACA5BD0062EE8D /* libboost_system.a */,
+				7A6CE30821E0C3BD0079D5BE /* libboost_system.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		7A3C290C21E0D5060036841C /* asio */ = {
+			isa = PBXGroup;
+			children = (
+				7A3C290E21E0D5280036841C /* asio_demo.hpp */,
+				7A3C290D21E0D5280036841C /* asio_demo.cpp */,
+			);
+			path = asio;
+			sourceTree = "<group>";
+		};
+		7A84D4EC253AA65C00A41722 /* Miscellaneous */ = {
+			isa = PBXGroup;
+			children = (
+				7A84D4ED253AA6B000A41722 /* MisCellaneous.cpp */,
+				7A84D4EE253AA6B000A41722 /* MisCellaneous.hpp */,
+			);
+			path = Miscellaneous;
+			sourceTree = "<group>";
+		};
+		7A84D4F2253AD8C100A41722 /* Version */ = {
+			isa = PBXGroup;
+			children = (
+				7A84D4F3253AD8C100A41722 /* Version.cpp */,
+				7A84D4F4253AD8C100A41722 /* Version.hpp */,
+			);
+			path = Version;
+			sourceTree = "<group>";
+		};
+		7A84D4F5253AD8CA00A41722 /* Time */ = {
+			isa = PBXGroup;
+			children = (
+				7A84D4F6253AD8CA00A41722 /* TimeTool.hpp */,
+				7A84D4F7253AD8CA00A41722 /* TimeTool.cpp */,
+			);
+			path = Time;
+			sourceTree = "<group>";
+		};
+		7A84D4FC253AD8E800A41722 /* Traits */ = {
+			isa = PBXGroup;
+			children = (
+				7A84D4F9253AD8D800A41722 /* TraitsCopy.cpp */,
+				7A84D4F8253AD8D800A41722 /* TraitsCopy.hpp */,
+			);
+			path = Traits;
+			sourceTree = "<group>";
+		};
+		7A9C85FD22ABD2430062EE8D /* Lib */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Lib;
+			sourceTree = "<group>";
+		};
+		7AF2B99A21DD0FCB0042AE8C /* Networking */ = {
+			isa = PBXGroup;
+			children = (
+				7A3C290C21E0D5060036841C /* asio */,
+				7AF2B99E21DD15FE0042AE8C /* sync_client.hpp */,
+				7AF2B99D21DD15FE0042AE8C /* sync_client.cpp */,
+			);
+			path = Networking;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -88,7 +199,7 @@
 		7A0A2B0421D8A2CC001F05C0 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastUpgradeCheck = 1010;
+				LastUpgradeCheck = 1200;
 				ORGANIZATIONNAME = Jerry;
 				TargetAttributes = {
 					7A0A2B0B21D8A2CC001F05C0 = {
@@ -102,6 +213,7 @@
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
+				Base,
 			);
 			mainGroup = 7A0A2B0321D8A2CC001F05C0;
 			productRefGroup = 7A0A2B0D21D8A2CC001F05C0 /* Products */;
@@ -119,6 +231,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				7A0A2B1021D8A2CC001F05C0 /* main.cpp in Sources */,
+				7A0A2B1921D8A58B001F05C0 /* VectorDemo.cpp in Sources */,
+				7A3C290F21E0D5280036841C /* asio_demo.cpp in Sources */,
+				7A84D4EF253AA6B000A41722 /* MisCellaneous.cpp in Sources */,
+				7AF2B99F21DD15FE0042AE8C /* sync_client.cpp in Sources */,
+				7A84D4FA253AD8D800A41722 /* TraitsCopy.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -151,6 +268,7 @@
 				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
 				CLANG_WARN_STRICT_PROTOTYPES = YES;
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
@@ -210,6 +328,7 @@
 				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
 				CLANG_WARN_STRICT_PROTOTYPES = YES;
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
@@ -239,18 +358,34 @@
 		7A0A2B1421D8A2CC001F05C0 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CODE_SIGN_IDENTITY = "-";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 622A9GB38Y;
+				HEADER_SEARCH_PATHS = /Users/lhp3851/Documents/Code/boost_1_69_0;
+				LIBRARY_SEARCH_PATHS = (
+					/usr/local/lib,
+					/Users/lhp3851/Documents/Code/boost_1_69_0/stage/lib,
+					"$(PROJECT_DIR)/C++Demo/Lib",
+				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				VALID_ARCHS = "i386 x86_64";
 			};
 			name = Debug;
 		};
 		7A0A2B1521D8A2CC001F05C0 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CODE_SIGN_IDENTITY = "-";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 622A9GB38Y;
+				HEADER_SEARCH_PATHS = /Users/lhp3851/Documents/Code/boost_1_69_0;
+				LIBRARY_SEARCH_PATHS = (
+					/usr/local/lib,
+					/Users/lhp3851/Documents/Code/boost_1_69_0/stage/lib,
+					"$(PROJECT_DIR)/C++Demo/Lib",
+				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				VALID_ARCHS = "i386 x86_64";
 			};
 			name = Release;
 		};
